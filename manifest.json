@@ -1,0 +1,32 @@
+{
+	"author": "Fribbynetwork",
+	"developer": {
+    "name": "MiloMix",
+    "url": "https://github.com/Milomix/"
+  },
+    "commands": {
+    "copy_source": {
+      "description": "Copy Page's Source Code",
+      "suggested_key": {
+        "default": "Ctrl+Period",
+        "mac": "Command+Period"
+      }
+    }
+  },
+    "manifest_version": 3,
+    "name": "Copy Source Code",
+    "version": "1.0",
+	"icons": {
+    "128": "icon.png"
+  },
+    "description": "Adds a button to copy the current page's source code.",
+    "permissions": [
+    "activeTab",
+	"scripting",
+    "clipboardWrite"
+  ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
