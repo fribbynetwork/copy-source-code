@@ -1,8 +1,8 @@
 {
 	"author": "Fribbynetwork",
 	"developer": {
-    "name": "MiloMix",
-    "url": "https://github.com/Milomix/"
+    "name": "Fribbynetwork",
+    "url": "https://github.com/fribbynetwork/copy-source-code/"
   },
     "commands": {
     "copy_source": {
@@ -15,7 +15,7 @@
   },
     "manifest_version": 3,
     "name": "Copy Source Code",
-    "version": "1.0",
+    "version": "1.0.1",
 	"icons": {
     "128": "icon.png"
   },
@@ -28,5 +28,13 @@
     "action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html"
-    }
+    },
+	"browser_specific_settings": {
+   "gecko": {
+    "id": "copy-source-code@fribbynetwork.net",
+    "strict_min_version": "109.0"
+	}
+	}
+
+	
 }
